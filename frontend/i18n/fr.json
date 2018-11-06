@@ -1,0 +1,28 @@
+{
+  "common": {
+    "login": "Connexion",
+    "email": "Couriel",
+    "password": "Mot de passe",
+    "register": "Enregistrer",
+    "username": "Nom d'utilisateur",
+    "emptyPage": "Page vide",
+    "login_page": "Page de connexion",
+    "landingPage": "Page d'acueil",
+    "registerPage": "Page d'inscription",
+    "confirmPassword": "Confirmer le mot de passe"
+  },
+  "validation": {
+    "required": "requis",
+    "unknownError": "Erreur inconnue",
+    "passwordsDontMatch": "Les mots de passe ne correspondent pas.",
+    "mustBeAlphaNumeric": "Doit être alphanumérique.",
+    "invalidEmailAddress": "Adresse email invalide.",
+    "usernameAlreadyExists": "Ce nom d'utilisateur existe déjà",
+    "mustBe8CharactersOrMore": "Doit contenir au moins 8 caractères.",
+    "mustBe6CharactersOrMore": "Doit contenir au moins 6 caractères."
+  },
+  "registerSuccessPage": {
+    "registerSuccessTitle": "Enregistrer succès",
+    "registerSuccessMessage": "Vous vous êtes bien inscrit. Vous pouvez maintenant vous connecter avec le nom d'utilisateur que vous avez créé. Veuillez cliquer sur le bouton de connexion ci-dessous pour procéder à la connexion."
+  }
+}

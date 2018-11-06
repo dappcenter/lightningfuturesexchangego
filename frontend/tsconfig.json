@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "app/*"
+      ],
+    },
+    "module": "esnext",
+    "target": "es5",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "noEmit": false,
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "noErrorTruncation": true,
+    "forceConsistentCasingInFileNames": false, // TODO: enable
+    "noImplicitReturns": false, // TODO: enable
+    "noImplicitThis": false, // TODO: enable
+    "noImplicitAny": false,
+    "noStrictGenericChecks": true, // TODO: disable
+    "strictNullChecks": false, // TODO: disable
+    "suppressImplicitAnyIndexErrors": true, // TODO: disable
+    "suppressExcessPropertyErrors": true, // TODO: disable
+    "noUnusedLocals": false, // TODO: enable
+    "noUnusedParameters": false, // TODO: enable (maybe)
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "allowUnreachableCode": true, // TODO: disable
+    "skipLibCheck": true, // TODO: disable
+    "skipDefaultLibCheck": true, // TODO: disable
+    "resolveJsonModule": true,
+  },
+  "include": [
+    "app/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/**",
+    "**/build/**",
+    "**/scripts/**",
+    "**/tests/**",
+    "**/__tests__/**",
+    "**/unit/**",
+    "*spec*",
+  ]
+}

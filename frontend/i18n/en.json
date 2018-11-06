@@ -1,0 +1,28 @@
+{
+  "common": {
+    "login": "Login",
+    "email": "Email",
+    "password": "Password",
+    "register": "Register",
+    "username": "Username",
+    "emptyPage": "Empty Page",
+    "login_page": "Login Page",
+    "landingPage": "Landing Page",
+    "registerPage": "Register Page",
+    "confirmPassword": "Confirm Password"
+  },
+  "validation": {
+    "required": "Required.",
+    "unknownError": "Unknown error!",
+    "passwordsDontMatch": "Passwords don't match.",
+    "mustBeAlphaNumeric": "Must be alphanumeric.",
+    "invalidEmailAddress": "Invalid email address.",
+    "usernameAlreadyExists": "Username already exists.",
+    "mustBe8CharactersOrMore": "Must be 8 characters or more.",
+    "mustBe6CharactersOrMore": "Must be 6 characters or more."
+  },
+  "registerSuccessPage": {
+    "registerSuccessTitle": "Register Success",
+    "registerSuccessMessage": "You have registered successfully.  You may now login with the username you have created.  Please click the login button below to proceed to login."
+  }
+}
